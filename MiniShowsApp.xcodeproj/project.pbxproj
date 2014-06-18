@@ -123,11 +123,11 @@
 		8CBA98B91951CE7300B3E396 /* MiniShowsApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CBA98C51951CE7300B3E396 /* Main.storyboard */,
 				8CBA98C21951CE7300B3E396 /* AppDelegate.h */,
 				8CBA98C31951CE7300B3E396 /* AppDelegate.m */,
 				8CBA98EC1951CE8C00B3E396 /* Model */,
 				8CBA98EB1951CE8400B3E396 /* Views */,
-				8CBA98C51951CE7300B3E396 /* Main.storyboard */,
 				8CBA98CE1951CE7300B3E396 /* Images.xcassets */,
 				8CBA98BA1951CE7300B3E396 /* Supporting Files */,
 			);
@@ -169,10 +169,10 @@
 			children = (
 				8CBA98C81951CE7300B3E396 /* MasterViewController.h */,
 				8CBA98C91951CE7300B3E396 /* MasterViewController.m */,
-				8CBA98CB1951CE7300B3E396 /* DetailViewController.h */,
-				8CBA98CC1951CE7300B3E396 /* DetailViewController.m */,
 				8CBA98ED1951CECA00B3E396 /* CustomCellTableViewCell.h */,
 				8CBA98EE1951CECA00B3E396 /* CustomCellTableViewCell.m */,
+				8CBA98CB1951CE7300B3E396 /* DetailViewController.h */,
+				8CBA98CC1951CE7300B3E396 /* DetailViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -494,6 +494,7 @@
 				8CBA98E71951CE7300B3E396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CBA98E81951CE7300B3E396 /* Build configuration list for PBXNativeTarget "MiniShowsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +503,7 @@
 				8CBA98EA1951CE7300B3E396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

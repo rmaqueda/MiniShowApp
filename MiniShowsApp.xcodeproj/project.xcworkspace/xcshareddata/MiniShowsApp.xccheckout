@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0DE3E34D-E0C2-4ADE-A7CA-E1D22472381F</string>
+	<string>D5E0EB79-3341-49C4-9C53-C0DA41E6DDC1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MiniShowsApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>89C9AFF2-717C-4253-B41B-D7EDD2DFA4EC</key>
-		<string>ssh://bitbucket.org/rmaqueda/ironhack.git</string>
+		<key>BD4F9B07-D181-436D-92CB-6BD68436CA35</key>
+		<string>https://github.com/rmaqueda/MiniShowApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>3.Week/MiniShowsApp/MiniShowsApp.xcodeproj/project.xcworkspace</string>
+	<string>MiniShowsApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>89C9AFF2-717C-4253-B41B-D7EDD2DFA4EC</key>
-		<string>../../../..</string>
+		<key>BD4F9B07-D181-436D-92CB-6BD68436CA35</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://bitbucket.org/rmaqueda/ironhack.git</string>
+	<string>https://github.com/rmaqueda/MiniShowApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>89C9AFF2-717C-4253-B41B-D7EDD2DFA4EC</string>
+	<string>BD4F9B07-D181-436D-92CB-6BD68436CA35</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>89C9AFF2-717C-4253-B41B-D7EDD2DFA4EC</string>
+			<string>BD4F9B07-D181-436D-92CB-6BD68436CA35</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ironhack</string>
+			<string>MiniShowsApp</string>
 		</dict>
 	</array>
 </dict>

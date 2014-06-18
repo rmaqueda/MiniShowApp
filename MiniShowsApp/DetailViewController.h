@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Show.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Show *show;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
