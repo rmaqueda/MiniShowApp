@@ -39,11 +39,15 @@
     show1.title = @"Perdidos";
     show1.episode = @"Episodio1";
     show1.state = @"No visto";
+    show1.image = [UIImage imageNamed:@"show.jpeg"];
+    show1.descShow = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum metus sed augue tempor, quis porta lorem pretium. Proin posuere sapien quis eleifend gravida. Phasellus luctus tempor euismod. Fusce in risus quis ligula imperdiet vulputate eu a elit. Ut vulputate fermentum diam eget tempus. Cras malesuada lorem vulputate, iaculis neque vitae, hendrerit nulla. Quisque eu leo sit amet augue malesuada rhoncus. Curabitur ut tempus neque, a gravida sem. Ut purus mauris, luctus id condimentum sit amet, tincidunt id neque. Maecenas ultrices velit nulla, in faucibus tellus lacinia dapibus. Nullam aliquam tincidunt libero in tincidunt. Donec sagittis risus a nisi dapibus, ac elementum tortor faucibus. Pellentesque sit amet ultrices eros, at porttitor metus. Nullam ipsum nibh, ullamcorper et interdum et, porta vitae metus.";
     
     Show *show2 = [[Show alloc] init];
     show2.title = @"Encontrados";
     show2.episode = @"Episodio1";
     show2.state = @"Visto";
+    show2.image = [UIImage imageNamed:@"show.jpeg"];
+    show2.descShow = @"Pellentesque molestie accumsan turpis, a lobortis metus suscipit ac. Maecenas aliquam risus at turpis imperdiet, pharetra dignissim ante congue. Donec non mi fringilla nisi commodo dignissim. Donec eu semper enim, eu adipiscing nulla. In pretium libero vel eros mattis, quis pulvinar felis dignissim. Etiam odio velit, facilisis ut quam et, condimentum gravida sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquam est sit amet velit dignissim, eu laoreet ante faucibus. Aliquam consectetur lacus et lacinia lobortis. In lacinia mollis mi, a blandit elit elementum quis.";
     
     [self.shows addObject:show1];
     [self.shows addObject:show2];
@@ -147,9 +151,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+        NSIndexPath *index = [self.tableView indexPathForCell:sender];
+        DetailViewController *vc = [segue destinationViewController];
+        vc.show = [self.shows objectAtIndex:index.row];
     }
 }
 

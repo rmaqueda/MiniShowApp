@@ -13,6 +13,8 @@
 @property (nonatomic, strong) NSString* title;
 @property (nonatomic, strong) NSString* episode;
 @property (nonatomic, strong) NSString* state;
+@property (nonatomic, strong) NSString *descShow;
+@property (nonatomic, strong) UIImage *image;
 
 @end
 
